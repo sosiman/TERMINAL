@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA'S TOP - Directorio Interactivo 3D de Inteligencias Artificiales</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header 3D -->
+    <header class="header-3d">
+        <div class="container">
+            <h1 class="main-title">🧠 IA'S TOP</h1>
+            <p class="subtitle">Directorio Interactivo 3D de Inteligencias Artificiales</p>
+            <nav class="nav-3d">
+                <button class="nav-btn" data-category="general">General</button>
+                <button class="nav-btn" data-category="imagenes">Imágenes</button>
+                <button class="nav-btn" data-category="videos">Videos</button>
+                <button class="nav-btn" data-category="programacion">Programación</button>
+                <button class="nav-btn" data-category="organizacion">Organización</button>
+                <button class="nav-btn" data-category="chatbots">Chatbots</button>
+                <button class="nav-btn" data-category="directorios">Directorios</button>
+                <button class="nav-btn" data-category="audio">Audio</button>
+                <button class="nav-btn" data-category="utilidades">Utilidades</button>
+                <button class="nav-btn" data-category="web">Web</button>
+                <button class="nav-btn" data-category="sistemas">Sistemas</button>
+                <button class="nav-btn" data-category="educacion">Educación</button>
+                <button class="nav-btn" data-category="extra">Extra</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Escena 3D Principal -->
+    <main class="scene-container">
+        <div class="cube-container">
+            <div class="rotating-cube" id="mainCube">
+                <div class="face front" data-category="general">
+                    <h2>🧠 INTELIGENCIAS ARTIFICIALES Y MULTIUSO</h2>
+                </div>
+                <div class="face back" data-category="imagenes">
+                    <h2>🎨 GENERADORES DE IMÁGENES</h2>
+                </div>
+                <div class="face right" data-category="videos">
+                    <h2>🖼 VIDEOS Y ANIMACIÓN</h2>
+                </div>
+                <div class="face left" data-category="programacion">
+                    <h2>📝 PROGRAMACIÓN</h2>
+                </div>
+                <div class="face top" data-category="organizacion">
+                    <h2>🗃 ORGANIZACIÓN</h2>
+                </div>
+                <div class="face bottom" data-category="audio">
+                    <h2>🔊 AUDIO Y VOZ</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenido Interactivo -->
+        <div class="content-panel" id="contentPanel">
+            <!-- General -->
+            <section class="category-section active" data-category="general">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="claude">
+                        <h3>Claude Sonnet 4</h3>
+                        <p>IA para programar y preguntas complejas (nuevo modelo)</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="deepsite">
+                        <h3>DeepSite</h3>
+                        <p>CONSTRUYE LA WEB QUE LE PIDAS MIENTRAS VEZ SU CREACION Y PUEDES COJER EL CODIGO</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="manus">
+                        <h3>Manus</h3>
+                        <p>Nueva IA</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="google-ai-edge">
+                        <h3>Google AI Edge</h3>
+                        <p>App para mover modelos de IA en android y está disponible en GitHub</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="aigagent">
+                        <h3>Aigagent</h3>
+                        <p>Con chat gpt para crear .json del escenario que quieras</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="neo-flowith">
+                        <h3>NEO BY Flowith</h3>
+                        <p>Infinity agents</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="genspark">
+                        <h3>Genspark.ai</h3>
+                        <p>La plataforma más completa con agentes de IA, deep research, código in live, modelos de imágenes y video</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="mgx">
+                        <h3>MGX</h3>
+                        <p>The first AI DEV TEAM (HACE TODO LO DE LOVABLE Y CURSOR)</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="grok">
+                        <h3>Grok</h3>
+                        <p>Ultima y mejor IA actual</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="chatllm-agent">
+                        <h3>ChatLLM (Computer Agent)</h3>
+                        <p>Agente de IA avanzado</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="meta-ai">
+                        <h3>META AI</h3>
+                        <p>IA MAS POTENTE DE TEXTO</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="arc-search">
+                        <h3>ARC SEARCH</h3>
+                        <p>Mejor buscador con IA existente</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="uncensored">
+                        <h3>Uncensored.com</h3>
+                        <p>IA sin censura</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="chatllm">
+                        <h3>Chat LLM</h3>
+                        <p>IA que hace videos y que analiza videos</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="chatllm-computer">
+                        <h3>ChatLLM Computer Agent</h3>
+                        <p>Agente de IA avanzado 10€ mes</p>
+                        <div class="card-details">
+                            <span class="tag premium">10€/mes</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="kortix">
+                        <h3>KORTIX.AI</h3>
+                        <p>Plataforma web que duplica el trabajo de un empleado y lo convierte en un agente de IA</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Imágenes -->
+            <section class="category-section" data-category="imagenes">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="google-ai-studio">
+                        <h3>Google AI Studio</h3>
+                        <p>Imágenes con IA de Google</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="gamma">
+                        <h3>GAMMA</h3>
+                        <p>IA COMPLETA HACE PAGINAS WEB, PRESENTACIONES DE TODO.. LA MAS NUEVA</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="blinkshot">
+                        <h3>Blinkshot.io</h3>
+                        <p>CREA IMAGENES DE FORMA ILIMITADA CON UNA API</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="freepik">
+                        <h3>Freepik.com</h3>
+                        <p>Generador de imágenes profesional con modelos gratuitos y pagos</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="flux-playground">
+                        <h3>Flux Playground</h3>
+                        <p>La más avanzada transformando fotos e imágenes</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="recraft">
+                        <h3>Recraft</h3>
+                        <p>Imágenes, remove and replace backgrounds</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="alpina">
+                        <h3>Alpina</h3>
+                        <p>Mezcla imágenes</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="dreamina">
+                        <h3>Dreamina AI</h3>
+                        <p>Generador de imágenes de Canva</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="meta-images">
+                        <h3>Meta</h3>
+                        <p>Imágenes y videos</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="playgroundai">
+                        <h3>PlaygroundAI</h3>
+                        <p>Genera imágenes</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="musavir">
+                        <h3>Musavir.ai</h3>
+                        <p>Foto de perfil</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="opencart">
+                        <h3>OpenCart</h3>
+                        <p>Generador de imágenes</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="blinkshot-live">
+                        <h3>Blinkshot.io</h3>
+                        <p>Genera imágenes a medida que vas escribiendo</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="invidio">
+                        <h3>Invidio.ai</h3>
+                        <p>Crea videos y con prompts puedes agregarle subtítulos y cositas</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="krea">
+                        <h3>KREA</h3>
+                        <p>IA DE IMAGENES Y EDICION</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="raphael">
+                        <h3>Raphael AI</h3>
+                        <p>General imágenes ilimitadas</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="heygen">
+                        <h3>HeyGen AI</h3>
+                        <p>Añade un objeto o producto a tu imagen</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="flux-edit">
+                        <h3>Flux Playground</h3>
+                        <p>Editar imágenes con IA</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="flux-kontext">
+                        <h3>Flux Kontext</h3>
+                        <p>Genera fotos profesionales con tu cara y agrega ropa u objetos</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="deevdi">
+                        <h3>Deevdi.ai</h3>
+                        <p>Genera imágenes realistas a partir de fotos y vídeos con varias fotos. (Imágenes con movimiento)</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="lovart">
+                        <h3>Lovart.ai</h3>
+                        <p>Diseña lo que le pidas (una imagen con un diseño espectacular por detrás)</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="freepik-pro">
+                        <h3>Freepik AI</h3>
+                        <p>Cambia tu foto a una profesional para el currículum</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Videos -->
+            <section class="category-section" data-category="videos">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="wan-video">
+                        <h3>WAN.video</h3>
+                        <p>Para hacer videos</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="prezi">
+                        <h3>Prezi</h3>
+                        <p>Para hacer presentaciones</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="make-influencer">
+                        <h3>Make Influencer</h3>
+                        <p>IA para videos</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="pika-voice">
+                        <h3>Pika.art</h3>
+                        <p>Click en pickaaddition y upload una foto o video y tendrá tu voz</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="pika-video">
+                        <h3>PIKA.ART</h3>
+                        <p>CREA VIDEOS COM IMAGENES</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="invidio-ai">
+                        <h3>Invidio AI</h3>
+                        <p>Hace videos</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="qwen25">
+                        <h3>Qwen2.5-Plus</h3>
+                        <p>Última IA después de deepseek (genera imágenes)</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="tv-garden">
+                        <h3>TV.garden</h3>
+                        <p>Los canales de TV de todos los países del mundo</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="hailuo">
+                        <h3>Hailuo.ai</h3>
+                        <p>Videos como veo 3, 25 créditos diarios</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="labs-google">
+                        <h3>Labs.google/flow</h3>
+                        <p>Crea videos con veo 3 fast</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="style-io">
+                        <h3>Style.io</h3>
+                        <p>Crea videos en base a diseños e imágenes</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="opusclip">
+                        <h3>OpusClip</h3>
+                        <p>Subes un video y te hace varios clips con subtítulos</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="skyeels">
+                        <h3>Skyeels.ai</h3>
+                        <p>Genera videos gratis</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="vidau">
+                        <h3>Vidau</h3>
+                        <p>Remix de video de producto</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="snipzy">
+                        <h3>Snipzy.dev</h3>
+                        <p>HTML, CSS y JavaScript animaciones para añadir a tu website</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="hedra">
+                        <h3>Hedra</h3>
+                        <p>Crea videos de avatares con el modelo character 3</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="make-academy">
+                        <h3>Make Academy</h3>
+                        <p>Puede contener cursos de make</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="omnihuman">
+                        <h3>Omnihuman1.org</h3>
+                        <p>Crea videos de la foto que le subas y es creada por la misma empresa que creo TikTok</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="apop-ai">
+                        <h3>Apop AI</h3>
+                        <p>Con una foto crea una modelo con todos los rasgos faciales que le configures</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="celebify">
+                        <h3>Celebify AI</h3>
+                        <p>Generated AI girl</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Programación -->
+            <section class="category-section" data-category="programacion">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="bolt">
+                        <h3>Bolt.new</h3>
+                        <p>IA para programar (juegos)</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="theyseeyourphotos">
+                        <h3>Theyseeyourphotos.com</h3>
+                        <p>Web que muestra toda la información relacionada con una foto</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="codepen">
+                        <h3>Codepen.io/pen</h3>
+                        <p>PROBAR CODIGO EN TIEMPO REAL (PEGA EL CODIGO DE GPT Y PRUEBALO)</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="afindy">
+                        <h3>Afindy.com</h3>
+                        <p>DIRECTORIO COMPLETO DE IAS CON SUS PRECIOS</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="ninjachat">
+                        <h3>NINJACHAT.AI</h3>
+                        <p>Varias IAS trabajando al mismo tiempo</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="v0">
+                        <h3>V0.dev AI</h3>
+                        <p>Desarrolla cualquier idea todo el código y la interfaces de la app</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="softgen">
+                        <h3>Softgen.ai</h3>
+                        <p>Crea aplicaciones y las vez en tiempo real</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="webdraw">
+                        <h3>Webdraw.io</h3>
+                        <p>Dibuja tu web y se convierte en una app o web real</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="blackbox">
+                        <h3>Blackbox.ai</h3>
+                        <p>Construye páginas web muy eficientes</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="prompt-genie">
+                        <h3>Prompt Genie</h3>
+                        <p>Extension de chrome que genera prompt de lo que le pides a chat GPT</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="prompt-genie-web">
+                        <h3>Prompt-genie.com</h3>
+                        <p>Crea el prompt que necesites super detallado</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="copycode">
+                        <h3>Copycode.ai</h3>
+                        <p>Con un screenshot te crea el prompt de ese código, ejemplo de una página web y luego copiar el prompt en (cursor)</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="technisixty">
+                        <h3>Technisixty</h3>
+                        <p>Web de videos e imágenes en un flujo personalizable</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="magicloops">
+                        <h3>Magicloops.dev</h3>
+                        <p>Puedes crear la aplicación que quieras dándole una indicación (por ejemplo un generador de códigos QR de cualquier URL)</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="cssgrid">
+                        <h3>Cssgridgenerator.io</h3>
+                        <p>Genera el código necesario para tus grids</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Organización -->
+            <section class="category-section" data-category="organizacion">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="numerous">
+                        <h3>Numerous.ai</h3>
+                        <p>Excel</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="rows-ai">
+                        <h3>Rows AI</h3>
+                        <p>Conecta datos en vivo de Google Ads, Stripe y más... Para Excel</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="dashdash">
+                        <h3>DashDash AI</h3>
+                        <p>Mezcla Chat GPT con el poder de Excel, la mejor para Excel</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="sheets-ai">
+                        <h3>Sheets+AI</h3>
+                        <p>Crea tablas Excel con un solo prompt</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="airtable">
+                        <h3>Airtable.com</h3>
+                        <p>Una base de datos (sheets) con muchas más funcionalidades y puedes conectar un webhook</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="typedai">
+                        <h3>Typedai.com</h3>
+                        <p>Hace test y crea evaluaciones del PDF que le anexes</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="pdf2-anki">
+                        <h3>Pdf2-anki.com</h3>
+                        <p>Genera cuadros y resumen de PDF con gráficos</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="chatpdf">
+                        <h3>Chatpdf.com</h3>
+                        <p>Chatea con tu PDF</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="notebooklm">
+                        <h3>NotebookLM</h3>
+                        <p>Hace podcast de PDF</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="notebooklm-advanced">
+                        <h3>NotebookLM</h3>
+                        <p>Genera podcast y resúmenes del archivo que quieras</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="studyfetch">
+                        <h3>Studyfetch.com</h3>
+                        <p>PDF a video</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="stydyfetch">
+                        <h3>Stydyfetch.com</h3>
+                        <p>Toma notas de clase</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="napkin-beta">
+                        <h3>NAPKIN Beta</h3>
+                        <p>Cualquier texto a gráfica</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="napkin-ai">
+                        <h3>NAPKIN.AI</h3>
+                        <p>Genera presentaciones, diagramas, mapas mentales...</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="classcentral">
+                        <h3>Classcentral.com</h3>
+                        <p>Puedes hacer el certificado que quieras y obtener la certificación Microsoft o Google</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Audio -->
+            <section class="category-section" data-category="audio">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="ttsfree">
+                        <h3>TTSFree.com</h3>
+                        <p>Texto a notas de voz</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="fish">
+                        <h3>Fish.audio</h3>
+                        <p>Click en build voice y clona tu voz</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="openai-fm">
+                        <h3>OpenAI.fm</h3>
+                        <p>Texto a voces realistas</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="lovevoice">
+                        <h3>Lovevoice.AI</h3>
+                        <p>Más de 100 voces</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="character">
+                        <h3>Character.AI</h3>
+                        <p>Clonar tu voz</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="zonos">
+                        <h3>Zonos.live</h3>
+                        <p>Clona voces</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Chatbots -->
+            <section class="category-section" data-category="chatbots">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="chatgpt-tasks">
+                        <h3>Chatgpt.com/tasks</h3>
+                        <p>Programa una tarea (que, como y cuando)</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="chatbot-com">
+                        <h3>Chatbot.com</h3>
+                        <p>Escanea una web completa y te da un chatbot de toda la información de la web</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="chatbotstudio">
+                        <h3>Chatbotstudio.com</h3>
+                        <p>Chatbot</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="chatllm-teams">
+                        <h3>ChatLLM TEAMS</h3>
+                        <p>IA potente para trabajos y adjuntar PDF, arroja informes completos con gráficas</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="operator-chatgpt">
+                        <h3>Operator.chatgpt.com</h3>
+                        <p>Crea memes estilo web</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="theresanai">
+                        <h3>Theresanaiforthat.com</h3>
+                        <p>Categoriza todas las IAs que existen por función y si son gratis o pagas</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Directorios -->
+            <section class="category-section" data-category="directorios">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="transitionalhooks">
+                        <h3>Transitionallhooks.com</h3>
+                        <p>Directorio de HOOKS para reels</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="afindy-directory">
+                        <h3>Afindy.com</h3>
+                        <p>DIRECTORIO COMPLETO DE IAS CON SUS PRECIOS</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="tinywow">
+                        <h3>Tinywow.com</h3>
+                        <p>Tiene todas las herramientas posibles (tools) PDF a JPEG, etc</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Utilidades -->
+            <section class="category-section" data-category="utilidades">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="shell-recent">
+                        <h3>Shell:recent</h3>
+                        <p>Lista archivos y apps abiertos recientemente en el ordenador</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="wintoys">
+                        <h3>Wintoys</h3>
+                        <p>App de Windows de la Microsoft Store para controlar todo el PC</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="volume-master">
+                        <h3>Volume Master</h3>
+                        <p>ES UNA EXTENSION QUE AUMENTA EL VOLUMEN DE TU PC</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="vpn-gamivo">
+                        <h3>VPN Gamivo</h3>
+                        <p>VPN desde Gamivo</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="file-pizza">
+                        <h3>File.pizza</h3>
+                        <p>Página web para compartir archivos por link</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="windhawk">
+                        <h3>WindhawkK.net</h3>
+                        <p>Download - open Windhawk - explore - better file access and explore details - install</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="spacedesk">
+                        <h3>Spacedesk</h3>
+                        <p>Convierte tu móvil en un monitor más del PC</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="claude-code-extension">
+                        <h3>Claude Code Extension</h3>
+                        <p>For VS Code</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Web -->
+            <section class="category-section" data-category="web">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="landingsite">
+                        <h3>LandingSite.ai</h3>
+                        <p>Te hace la web que le describas</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="deepsite-web">
+                        <h3>DeepSite</h3>
+                        <p>CONSTRUYE LA WEB QUE LE PIDAS MIENTRAS VEZ SU CREACION Y PUEDES COJER EL CODIGO</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="emergent">
+                        <h3>Emergent.ai</h3>
+                        <p>Crea páginas web y te las explica</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="templo">
+                        <h3>Templo.io</h3>
+                        <p>Plantillas editables de páginas web</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="readdy">
+                        <h3>Readdy.ai</h3>
+                        <p>Crea una página web, puedes publicarla al instante editarla y extraer el código HTML</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="qwen3">
+                        <h3>Qwen3</h3>
+                        <p>Le das a web dev y vez en tiempo real como se crea tu página web</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="opening-fly">
+                        <h3>Opening.fly.dev.ai</h3>
+                        <p>Hace páginas web a partir de un screenshot</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="softgen-web">
+                        <h3>Softgen.ai</h3>
+                        <p>Crea aplicaciones y las vez en tiempo real</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="webdraw-web">
+                        <h3>Webdraw.io</h3>
+                        <p>Dibuja tu web y se convierte en una app o web real</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sistemas -->
+            <section class="category-section" data-category="sistemas">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="optios">
+                        <h3>OptiOS</h3>
+                        <p>Sistema operativo ultra liviano para PC con 2GB o menos de RAM</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="puter">
+                        <h3>Puter.com</h3>
+                        <p>Sistema operativo que corre en tu navegador</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Educación -->
+            <section class="category-section" data-category="educacion">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="learning-studio">
+                        <h3>Learning Studio.AI</h3>
+                        <p>Página para crear cursos</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="platzi">
+                        <h3>Platzi</h3>
+                        <p>Curso de IA con diploma</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Extra -->
+            <section class="category-section" data-category="extra">
+                <div class="cards-grid">
+                    <div class="ai-card" data-ai="file-pizza-extra">
+                        <h3>File.pizza</h3>
+                        <p>Página web para compartir archivos por link</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="technisixty-extra">
+                        <h3>Technisixty</h3>
+                        <p>Web de videos e imágenes en un flujo personalizable</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="partyrock">
+                        <h3>Partyrock</h3>
+                        <p>IA que hace aplicaciones, humanizador de texto por ejemplo</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="skipkids">
+                        <h3>Skipkids.com</h3>
+                        <p>Descarga videos YouTube</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="prankshit">
+                        <h3>Prankshit.com</h3>
+                        <p>Capturas de pantalla, facturas y todo fake</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="tv-garden-extra">
+                        <h3>TV.garden</h3>
+                        <p>Los canales de TV de todos los países del mundo</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="n2yo">
+                        <h3>N2yo.com/API</h3>
+                        <p>Posición de los satélites en tiempo real</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="buildcores">
+                        <h3>Buildcores.com</h3>
+                        <p>Armas un PC en 3D te dice compatibilidad, FPS resultantes en todos los juegos y diseño gráfico</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="margave">
+                        <h3>Margave.dev</h3>
+                        <p>Office gratis</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="consensus">
+                        <h3>Consensus, SciSpace, Tyxz</h3>
+                        <p>IAs con fuentes académicas (IAs científicas)</p>
+                        <div class="card-details">
+                            <span class="tag freemium">Freemium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="zzz-code">
+                        <h3>ZZZ CODE AI</h3>
+                        <p>TE HACE EL CODIGO DE LO QUE PIDAS</p>
+                        <div class="card-details">
+                            <span class="tag premium">Premium</span>
+                        </div>
+                    </div>
+                    <div class="ai-card" data-ai="comandos">
+                        <h3>Comandos Útiles</h3>
+                        <p>shell:appsfolder, NCPA.CPL, Mrt, configuraciones Chrome, N8NCHAT.COM</p>
+                        <div class="card-details">
+                            <span class="tag free">Gratis</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Panel de Detalles -->
+        <div class="details-panel" id="detailsPanel">
+            <button class="close-btn" id="closeDetails">&times;</button>
+            <div class="details-content" id="detailsContent">
+                <!-- Content will be dynamically inserted here -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Partículas 3D de fondo -->
+    <div class="particles-container" id="particles"></div>
+
+    <!-- Footer -->
+    <footer class="footer-3d">
+        <div class="container">
+            <p>&copy; 2025 IA'S TOP - Directorio Interactivo de Inteligencias Artificiales</p>
+            <p>Powered by Claude Code Terminal</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
